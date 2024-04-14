@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("ksshoes.png");
+}
+
+.nav {
+    background: transparent;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+ul {
+    word-spacing: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    transition: all .3s ease;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
